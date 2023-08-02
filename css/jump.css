@@ -34,3 +34,14 @@ iframe {
 #email-link:hover {
   text-decoration: underline;
 }
+
+.jamie-image {
+  max-height: 300px;
+  
+}
+
+.jamie-image-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
