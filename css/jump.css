@@ -1,23 +1,21 @@
-.video-container {
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+
+.resp-container {
+  position: relative;
+  overflow: hidden;
+  padding-top: 56.25%;
 }
 
-.video-wrapper {
-  display: inline-flex;
-  flex-wrap: wrap;
+.resp-iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
   width: 100%;
-  margin: auto;
-  gap: 40px;
-  align-items: center;
-  justify-content: center;
+  height: 100%;
+  border: 0;
+  padding-left: 100px;
+  padding-right: 100px;
 }
 
-.video-frame {
-  height: 200px;
-}
 
 #email-link {
   text-decoration: none;
@@ -30,7 +28,6 @@
 
 .jamie-image {
   max-height: 300px;
-  
 }
 
 .jamie-image-container {
@@ -38,4 +35,12 @@
   align-items: center;
   justify-content: center;
   margin-top: 50px;
+}
+
+
+@media (max-width: 600px) {
+  .resp-iframe {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
 }
